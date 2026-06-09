@@ -1,0 +1,24 @@
+:root{
+
+  --primary:#0B5FFF;
+  --secondary:#071C63;
+
+  --dark:#08112D;
+  --light:#ffffff;
+
+  --text:#5F6B85;
+
+  --border:#E8ECF3;
+
+  --container:1320px;
+
+  --shadow:
+  0 10px 30px rgba(0,0,0,.08);
+
+  --gradient:
+  linear-gradient(
+  135deg,
+  #0B5FFF 0%,
+  #1E3A8A 100%
+  );
+}
