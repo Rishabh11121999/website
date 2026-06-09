@@ -1,7 +1,15 @@
-import Home from "./pages/Home/Home";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Clients from "./components/TrustedClients/Clients";
 
 function App() {
-  return <Home />;
+  return (
+    <>
+      <Header />
+      <Hero />
+      <Clients />
+    </>
+  );
 }
 
 export default App;
