@@ -134,3 +134,33 @@ button{
     }
 
 }
+
+html,
+body,
+#root{
+    width:100%;
+    overflow-x:hidden;
+}
+
+section{
+    overflow:hidden;
+}
+
+.swiper,
+.swiper-wrapper,
+.swiper-slide{
+    max-width:100%;
+}
+
+.hero,
+.partners,
+.hosting-solutions,
+.why-dnh{
+    width:100%;
+    overflow:hidden;
+}
+
+.hero-image img{
+    max-width:80%;
+    height:auto;
+}
