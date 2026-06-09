@@ -2,6 +2,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Clients from "./components/TrustedClients/Clients";
 import HostingSolutions from "./components/HostingSolutions/HostingSolutions";
+import WhyChooseDNH from "./components/WhyChooseUs/WhyChooseDNH";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Clients />
       <HostingSolutions />
+      <WhyChooseDNH />
     </>
   );
 }
