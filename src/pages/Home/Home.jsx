@@ -1,7 +1,9 @@
+import Header from "../../components/Header/Header";
+
 const Home = () => {
   return (
     <>
-      <h1>Datanet Hosting</h1>
+      <Header />
     </>
   );
 };

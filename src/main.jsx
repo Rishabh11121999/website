@@ -1,14 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-import App from './App';
+import App from "./App";
 
-import './styles/globals.css';
+import "./styles/globals.css";
+
+import { CurrencyProvider } from "./context/CurrencyContext";
 
 ReactDOM.createRoot(
-  document.getElementById('root')
+  document.getElementById("root")
 ).render(
   <React.StrictMode>
-    <App />
+    <CurrencyProvider>
+      <App />
+    </CurrencyProvider>
   </React.StrictMode>
 );
