@@ -30,8 +30,8 @@ const CTABanner = () => {
             </h2>
 
             <p>
-              Deploy high-performance cloud, VPS, dedicated servers
-              and enterprise hosting solutions backed by
+              Deploy high-performance Cloud, VPS, Dedicated servers
+              and Enterprise hosting solutions backed by
               24/7 expert support and guaranteed uptime.
             </p>
 
