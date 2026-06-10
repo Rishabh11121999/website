@@ -32,10 +32,25 @@ export const footerLinks = {
   ],
 
   company: [
-    "About Us",
-    "Careers",
-    "Datacenter",
-    "Partners",
-    "Contact Us"
+    {
+      title: "About Us",
+      path: "/about-us"
+    },
+    {
+      title: "Careers",
+      path: "/careers"
+    },
+    {
+      title: "Datacenter",
+      path: "/datacenter"
+    },
+    {
+      title: "Partners",
+      path: "/partners"
+    },
+    {
+      title: "Contact Us",
+      path: "/contact"
+    }
   ]
 };

@@ -1,0 +1,47 @@
+.contact-banner{
+  background:
+  linear-gradient(
+  rgba(1,18,71,.90),
+  rgba(1,18,71,.90)),
+  url("../../assets/images/contact-banner.jpg");
+
+  background-size:cover;
+  background-position:center;
+
+  padding:120px 0;
+}
+
+.contact-banner-content{
+  display:flex;
+  align-items:center;
+  gap:25px;
+}
+
+.banner-line{
+  width:4px;
+  height:90px;
+  background:#2563ff;
+}
+
+.contact-banner h1{
+  color:#fff;
+  font-size:56px;
+  font-weight:700;
+  margin-bottom:15px;
+}
+
+.breadcrumb{
+  color:#fff;
+}
+
+.breadcrumb span{
+  margin:0 10px;
+}
+
+@media(max-width:768px){
+
+.contact-banner h1{
+  font-size:38px;
+}
+
+}

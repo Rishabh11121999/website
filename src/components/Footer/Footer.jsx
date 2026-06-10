@@ -1,17 +1,26 @@
 import "./Footer.css";
-
+import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.webp";
 
 import {
   FaFacebookF,
   FaTwitter,
   FaLinkedinIn,
-  FaYoutube
+  FaYoutube,
+  FaWhatsapp,
+  FaArrowUp
 } from "react-icons/fa";
 
 import { footerLinks } from "./footerData";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
   return (
     <footer className="footer">
 
@@ -19,7 +28,7 @@ const Footer = () => {
 
         <div className="footer-top">
 
-          {/* Column 1 */}
+          {/* Company Info */}
 
           <div className="footer-company">
 
@@ -36,19 +45,35 @@ const Footer = () => {
 
             <div className="footer-social">
 
-              <a href="#">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaFacebookF />
               </a>
 
-              <a href="#">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaTwitter />
               </a>
 
-              <a href="#">
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaLinkedinIn />
               </a>
 
-              <a href="#">
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaYoutube />
               </a>
 
@@ -63,17 +88,13 @@ const Footer = () => {
             <h4>Hosting</h4>
 
             <ul>
-
-              {footerLinks.hosting.map((item,index)=>(
-
+              {footerLinks.hosting.map((item, index) => (
                 <li key={index}>
                   <a href="#">
                     {item}
                   </a>
                 </li>
-
               ))}
-
             </ul>
 
           </div>
@@ -85,17 +106,13 @@ const Footer = () => {
             <h4>Cloud Solutions</h4>
 
             <ul>
-
-              {footerLinks.cloud.map((item,index)=>(
-
+              {footerLinks.cloud.map((item, index) => (
                 <li key={index}>
                   <a href="#">
                     {item}
                   </a>
                 </li>
-
               ))}
-
             </ul>
 
           </div>
@@ -107,17 +124,13 @@ const Footer = () => {
             <h4>Support</h4>
 
             <ul>
-
-              {footerLinks.support.map((item,index)=>(
-
+              {footerLinks.support.map((item, index) => (
                 <li key={index}>
                   <a href="#">
                     {item}
                   </a>
                 </li>
-
               ))}
-
             </ul>
 
           </div>
@@ -129,17 +142,13 @@ const Footer = () => {
             <h4>Resources</h4>
 
             <ul>
-
-              {footerLinks.resources.map((item,index)=>(
-
+              {footerLinks.resources.map((item, index) => (
                 <li key={index}>
                   <a href="#">
                     {item}
                   </a>
                 </li>
-
               ))}
-
             </ul>
 
           </div>
@@ -151,22 +160,20 @@ const Footer = () => {
             <h4>Company</h4>
 
             <ul>
-
-              {footerLinks.company.map((item,index)=>(
-
+              {footerLinks.company.map((item, index) => (
                 <li key={index}>
-                  <a href="#">
-                    {item}
-                  </a>
+                  <Link to={item.path}>
+                    {item.title}
+                  </Link>
                 </li>
-
               ))}
-
             </ul>
 
           </div>
 
         </div>
+
+        {/* Footer Bottom */}
 
         <div className="footer-bottom">
 
@@ -189,6 +196,29 @@ const Footer = () => {
         </div>
 
       </div>
+
+      {/* Floating WhatsApp */}
+
+      <a
+        href="https://wa.me/919971329945"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="whatsapp-float"
+        aria-label="WhatsApp"
+      >
+        <FaWhatsapp />
+      </a>
+
+      {/* Scroll Top */}
+
+      <button
+        type="button"
+        className="scroll-top"
+        onClick={scrollToTop}
+        aria-label="Scroll To Top"
+      >
+        <FaArrowUp />
+      </button>
 
     </footer>
   );

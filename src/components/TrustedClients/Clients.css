@@ -122,6 +122,12 @@
         font-size:24px;
     }
 
+    .partners-title h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #071C63;
+}
+
     .partners-track{
         gap:50px;
     }
@@ -146,6 +152,12 @@
         line-height:1.4;
         margin-bottom:25px;
     }
+
+    .partners-title h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: #071C63;
+}
 
     .partners-track{
         gap:35px;

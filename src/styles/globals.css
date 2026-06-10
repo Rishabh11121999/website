@@ -139,11 +139,11 @@ html,
 body,
 #root{
     width:100%;
-    overflow-x:hidden;
+    /* overflow-x:hidden; */
 }
 
 section{
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 
 .swiper,
@@ -157,7 +157,7 @@ section{
 .hosting-solutions,
 .why-dnh{
     width:100%;
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 
 .hero-image img{

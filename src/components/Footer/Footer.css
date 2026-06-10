@@ -6,6 +6,24 @@
     background:#03154a;
     color:#fff;
     padding-top:90px;
+    position:relative;
+}
+
+/* ==================================
+   LINKS
+================================== */
+
+.footer-column ul li a,
+.footer-column ul li a:visited,
+.footer-column ul li a:link{
+    color:#ffffff;
+    text-decoration:none;
+    transition:.3s ease;
+}
+
+.footer-column ul li a:hover{
+    color:#2563ff;
+    padding-left:4px;
 }
 
 /* ==================================
@@ -36,12 +54,10 @@
 }
 
 .footer-company p{
-    color:
-    rgba(255,255,255,.75);
-
+    color:rgba(255,255,255,.75);
     line-height:1.8;
-
     margin-bottom:25px;
+    max-width:320px;
 }
 
 .footer-social{
@@ -64,12 +80,12 @@
 
     color:#fff;
 
-    transition:.3s;
+    transition:.3s ease;
 }
 
 .footer-social a:hover{
     background:#0B5FFF;
-    transform:translateY(-3px);
+    transform:translateY(-4px);
 }
 
 /* ==================================
@@ -78,6 +94,7 @@
 
 .footer-column h4{
     font-size:18px;
+    font-weight:700;
     margin-bottom:20px;
     color:#fff;
 }
@@ -89,10 +106,9 @@
 }
 
 .footer-column a{
-    color:
-    rgba(255,255,255,.75);
-
+    color:rgba(255,255,255,.75);
     transition:.3s;
+    font-size:15px;
 }
 
 .footer-column a:hover{
@@ -112,8 +128,8 @@
 }
 
 .footer-bottom p{
-    color:
-    rgba(255,255,255,.7);
+    color:rgba(255,255,255,.7);
+    font-size:14px;
 }
 
 .footer-bottom-links{
@@ -122,8 +138,8 @@
 }
 
 .footer-bottom-links a{
-    color:
-    rgba(255,255,255,.7);
+    color:rgba(255,255,255,.7);
+    transition:.3s;
 }
 
 .footer-bottom-links a:hover{
@@ -131,7 +147,90 @@
 }
 
 /* ==================================
-   TABLET
+   FLOATING WHATSAPP
+================================== */
+
+.whatsapp-float{
+    position:fixed;
+
+    right:25px;
+    bottom:100px;
+
+    width:50px;
+    height:50px;
+
+    border-radius:50%;
+
+    background:#25D366;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#fff;
+
+    font-size:30px;
+
+    text-decoration:none;
+
+    box-shadow:
+    0 12px 30px rgba(0,0,0,.25);
+
+    z-index:9999;
+
+    transition:.3s ease;
+}
+
+.whatsapp-float:hover{
+    transform:
+    translateY(-5px)
+    scale(1.05);
+}
+
+/* ==================================
+   SCROLL TOP
+================================== */
+
+.scroll-top{
+    position:fixed;
+
+    right:25px;
+    bottom:25px;
+
+    width:50px;
+    height:50px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#0B5FFF;
+
+    color:#fff;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    z-index:9999;
+
+    box-shadow:
+    0 12px 30px rgba(11,95,255,.35);
+
+    transition:.3s ease;
+}
+
+.scroll-top:hover{
+    background:#071C63;
+    transform:translateY(-5px);
+}
+
+/* ==================================
+   LARGE TABLET
 ================================== */
 
 @media(max-width:1200px){
@@ -147,7 +246,7 @@
 }
 
 /* ==================================
-   MOBILE
+   TABLET
 ================================== */
 
 @media(max-width:768px){
@@ -172,16 +271,37 @@
         gap:15px;
         text-align:center;
     }
+
+    .whatsapp-float{
+        width:55px;
+        height:55px;
+
+        font-size:26px;
+
+        right:20px;
+        bottom:20px;
+    }
+
+    .scroll-top{
+        width:45px;
+        height:45px;
+
+        font-size:16px;
+
+        right:20px;
+        bottom:85px;
+    }
 }
 
 /* ==================================
-   SMALL MOBILE
+   MOBILE
 ================================== */
 
 @media(max-width:480px){
 
     .footer-top{
         grid-template-columns:1fr;
+        gap:25px;
     }
 
     .footer-company{
@@ -202,5 +322,37 @@
 
     .footer-logo{
         width:120px;
+    }
+
+    .footer-column h4{
+        font-size:16px;
+    }
+
+    .footer-column a{
+        font-size:14px;
+    }
+
+    .footer-bottom p{
+        font-size:13px;
+    }
+
+    .whatsapp-float{
+        width:52px;
+        height:52px;
+
+        right:15px;
+        bottom:15px;
+
+        font-size:24px;
+    }
+
+    .scroll-top{
+        width:42px;
+        height:42px;
+
+        right:15px;
+        bottom:78px;
+
+        font-size:14px;
     }
 }
