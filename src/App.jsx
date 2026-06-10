@@ -6,6 +6,7 @@ import WhyChooseDNH from "./components/WhyChooseUs/WhyChooseDNH";
 import BlogSection from "./components/BlogSection/BlogSection";
 import Testimonials from "./components/Testimonials/Testimonials";
 import CTABanner from "./components/CTASection/CTABanner";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <BlogSection />
       <Testimonials />
       <CTABanner />
+      <Footer />
     </>
   );
 }
