@@ -67,10 +67,18 @@ const Clients = () => {
     <section className="partners">
 
       <div className="container">
+          
 
-        <h2 className="partners-title">
-          Trusted by 200,000+ Businesses Across India
-        </h2>
+        <div className="partners-title">
+          <span className="section-badge">
+            Trusted Partners
+          </span>
+          <h2>
+            Trusted by 200,000+ Businesses Across India
+          </h2>
+          <div className="title-line"></div>
+        </div>
+        
 
         <div className="partners-marquee">
 

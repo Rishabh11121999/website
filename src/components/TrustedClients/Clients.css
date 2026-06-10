@@ -21,6 +21,31 @@
     margin-bottom:40px;
 }
 
+.partners-title h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #071C63;
+}
+
+.title-line {
+    width: 80px;
+    height: 4px;
+    background: #0B5FFF;
+    margin: 18px auto 0;
+    border-radius: 20px;
+}
+
+.section-badge {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #eef4ff;
+    color: #0B5FFF;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
 /* ==========================
    MARQUEE
 ========================== */

@@ -3,7 +3,7 @@
 ========================= */
 
 .blog-section{
-    padding:100px 0;
+    padding:90px 0;
     background:#f8faff;
 }
 
@@ -16,6 +16,17 @@
     font-size:48px;
     font-weight:800;
     color:#071C63;
+}
+
+.section-badge {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #eef4ff;
+    color: #0B5FFF;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
 /* =========================
@@ -174,7 +185,7 @@
 @media(max-width:768px){
 
     .blog-section{
-        padding:70px 0;
+        padding:50px 0;
     }
 
     .section-heading h2{

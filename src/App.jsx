@@ -4,6 +4,7 @@ import Clients from "./components/TrustedClients/Clients";
 import HostingSolutions from "./components/HostingSolutions/HostingSolutions";
 import WhyChooseDNH from "./components/WhyChooseUs/WhyChooseDNH";
 import BlogSection from "./components/BlogSection/BlogSection";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HostingSolutions />
       <WhyChooseDNH />
       <BlogSection />
+      <Testimonials />
     </>
   );
 }
