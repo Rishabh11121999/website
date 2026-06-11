@@ -238,6 +238,10 @@ const MobileMenu = ({
 
       <div className="mobile-actions">
 
+        <a href="/cloud-hosting" className="promo-btn">
+          View Solutions →
+        </a>
+
         <a
           href="https://eportal.datanethosting.com/clientarea.php"
           className="mobile-login-btn"
