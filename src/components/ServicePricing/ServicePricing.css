@@ -1,0 +1,277 @@
+/* ==================================
+   SERVICE PRICING
+================================== */
+
+.service-pricing{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+/* ==================================
+   HEADER
+================================== */
+
+.pricing-header{
+    text-align:center;
+    max-width:800px;
+    margin:0 auto 70px;
+}
+
+.section-badge{
+    display:inline-block;
+
+    padding:8px 18px;
+
+    background:#eef4ff;
+    color:#0B5FFF;
+
+    border-radius:30px;
+
+    font-size:13px;
+    font-weight:600;
+
+    margin-bottom:18px;
+}
+
+.pricing-header h2{
+    font-size:48px;
+    font-weight:800;
+
+    color:#071C63;
+
+    margin-bottom:18px;
+}
+
+.pricing-header p{
+    color:#667085;
+
+    font-size:18px;
+
+    line-height:1.8;
+}
+
+/* ==================================
+   GRID
+================================== */
+
+.pricing-grid{
+    display:grid;
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:30px;
+}
+
+/* ==================================
+   CARD
+================================== */
+
+.pricing-card{
+    position:relative;
+
+    background:#fff;
+
+    border-radius:24px;
+
+    padding:40px 35px;
+
+    border:1px solid #edf2ff;
+
+    transition:.35s;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.04);
+}
+
+.pricing-card:hover{
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 25px 50px rgba(11,95,255,.12);
+}
+
+.popular-plan{
+    border:2px solid #0B5FFF;
+
+    transform:scale(1.03);
+}
+
+.popular-badge{
+    position:absolute;
+
+    top:-14px;
+    left:50%;
+
+    transform:
+    translateX(-50%);
+
+    background:#0B5FFF;
+
+    color:#fff;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-size:12px;
+    font-weight:700;
+}
+
+.pricing-card h3{
+    text-align:center;
+
+    font-size:28px;
+
+    color:#071C63;
+
+    margin-bottom:20px;
+}
+
+.plan-price{
+    text-align:center;
+
+    font-size:52px;
+    font-weight:800;
+
+    color:#0B5FFF;
+
+    margin-bottom:30px;
+}
+
+/* ==================================
+   FEATURES
+================================== */
+
+.pricing-card ul{
+    display:flex;
+    flex-direction:column;
+
+    gap:16px;
+
+    margin-bottom:35px;
+}
+
+.pricing-card li{
+    display:flex;
+    align-items:center;
+
+    gap:12px;
+
+    color:#4b587c;
+}
+
+.pricing-card li svg{
+    color:#0B5FFF;
+}
+
+/* ==================================
+   BUTTON
+================================== */
+
+.pricing-card button{
+    width:100%;
+    height:55px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#0B5FFF;
+
+    color:#fff;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:10px;
+
+    font-size:16px;
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.pricing-card button:hover{
+    background:#071C63;
+}
+
+/* ==================================
+   TABLET
+================================== */
+
+@media(max-width:992px){
+
+    .service-pricing{
+        padding:80px 0;
+    }
+
+    .pricing-grid{
+        grid-template-columns:
+        repeat(2,1fr);
+    }
+
+    .pricing-header h2{
+        font-size:38px;
+    }
+}
+
+/* ==================================
+   MOBILE
+================================== */
+
+@media(max-width:768px){
+
+    .service-pricing{
+        padding:60px 0;
+    }
+
+    .pricing-grid{
+        grid-template-columns:1fr;
+    }
+
+    .pricing-header{
+        margin-bottom:45px;
+    }
+
+    .pricing-header h2{
+        font-size:30px;
+    }
+
+    .pricing-header p{
+        font-size:15px;
+    }
+
+    .popular-plan{
+        transform:none;
+    }
+
+    .plan-price{
+        font-size:42px;
+    }
+}
+
+/* ==================================
+   SMALL MOBILE
+================================== */
+
+@media(max-width:480px){
+
+    .pricing-card{
+        padding:30px 20px;
+    }
+
+    .pricing-header h2{
+        font-size:26px;
+    }
+
+    .pricing-card h3{
+        font-size:24px;
+    }
+
+    .plan-price{
+        font-size:36px;
+    }
+}

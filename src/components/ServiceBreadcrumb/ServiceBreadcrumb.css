@@ -1,0 +1,73 @@
+/* ==================================
+   SERVICE BREADCRUMB
+================================== */
+
+.service-breadcrumb{
+    background:#f8faff;
+    border-bottom:1px solid #edf2ff;
+}
+
+.breadcrumb-wrapper{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    min-height:60px;
+}
+
+.breadcrumb-home{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    color:#0B5FFF;
+
+    font-size:14px;
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.breadcrumb-home:hover{
+    color:#071C63;
+}
+
+.breadcrumb-arrow{
+    color:#b8c2d8;
+    font-size:12px;
+}
+
+.breadcrumb-current{
+    color:#667085;
+    font-size:14px;
+    font-weight:500;
+}
+
+/* ==================================
+   TABLET
+================================== */
+
+@media(max-width:768px){
+
+    .breadcrumb-wrapper{
+        min-height:55px;
+        gap:8px;
+    }
+
+    .breadcrumb-home,
+    .breadcrumb-current{
+        font-size:13px;
+    }
+}
+
+/* ==================================
+   MOBILE
+================================== */
+
+@media(max-width:480px){
+
+    .breadcrumb-wrapper{
+        flex-wrap:wrap;
+        padding:12px 0;
+    }
+}

@@ -1,0 +1,251 @@
+/* ==================================
+   SERVICE CTA
+================================== */
+
+.service-cta{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+/* ==================================
+   CTA BOX
+================================== */
+
+.service-cta-box{
+
+    background:
+    linear-gradient(
+        135deg,
+        #071C63,
+        #0B5FFF
+    );
+
+    border-radius:30px;
+
+    padding:60px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    gap:50px;
+
+    overflow:hidden;
+    position:relative;
+}
+
+.service-cta-box::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:300px;
+    height:300px;
+
+    right:-120px;
+    top:-120px;
+
+    border-radius:50%;
+
+    background:
+    rgba(255,255,255,.08);
+}
+
+.service-cta-box::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:220px;
+    height:220px;
+
+    left:-80px;
+    bottom:-80px;
+
+    border-radius:50%;
+
+    background:
+    rgba(255,255,255,.05);
+}
+
+/* ==================================
+   CONTENT
+================================== */
+
+.service-cta-content{
+    position:relative;
+    z-index:2;
+    max-width:700px;
+}
+
+.cta-badge{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    background:
+    rgba(255,255,255,.15);
+
+    color:#fff;
+
+    font-size:13px;
+    font-weight:600;
+
+    margin-bottom:20px;
+}
+
+.service-cta-content h2{
+
+    color:#fff;
+
+    font-size:52px;
+    font-weight:800;
+
+    line-height:1.15;
+
+    margin-bottom:20px;
+}
+
+.service-cta-content p{
+
+    color:
+    rgba(255,255,255,.85);
+
+    font-size:18px;
+
+    line-height:1.8;
+}
+
+/* ==================================
+   BUTTONS
+================================== */
+
+.service-cta-actions{
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+    min-width:260px;
+
+    position:relative;
+    z-index:2;
+}
+
+.cta-btn{
+
+    height:58px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:12px;
+
+    border-radius:12px;
+
+    font-weight:700;
+
+    transition:.3s;
+}
+
+.cta-btn:hover{
+    transform:translateY(-4px);
+}
+
+.cta-primary{
+
+    background:#fff;
+    color:#071C63;
+}
+
+.cta-whatsapp{
+
+    background:#25D366;
+    color:#fff;
+}
+
+.cta-secondary{
+
+    border:
+    1px solid rgba(255,255,255,.2);
+
+    color:#fff;
+
+    background:
+    rgba(255,255,255,.08);
+}
+
+/* ==================================
+   TABLET
+================================== */
+
+@media(max-width:992px){
+
+    .service-cta-box{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        padding:50px 35px;
+    }
+
+    .service-cta-content h2{
+        font-size:40px;
+    }
+
+    .service-cta-actions{
+
+        width:100%;
+        max-width:450px;
+    }
+}
+
+/* ==================================
+   MOBILE
+================================== */
+
+@media(max-width:768px){
+
+    .service-cta{
+        padding:60px 0;
+    }
+
+    .service-cta-box{
+        padding:35px 20px;
+        border-radius:20px;
+    }
+
+    .service-cta-content h2{
+        font-size:30px;
+    }
+
+    .service-cta-content p{
+        font-size:15px;
+    }
+
+    .cta-btn{
+        width:100%;
+    }
+}
+
+/* ==================================
+   SMALL MOBILE
+================================== */
+
+@media(max-width:480px){
+
+    .service-cta-content h2{
+        font-size:26px;
+    }
+
+    .service-cta-content p{
+        font-size:14px;
+    }
+}

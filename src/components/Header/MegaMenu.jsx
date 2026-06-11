@@ -9,6 +9,8 @@ import {
   FaLayerGroup
 } from "react-icons/fa";
 
+import navbarimage from "../../assets/images/hosting/java.png";
+
 const MegaMenu = ({ title, items }) => {
   return (
     <div className="mega-menu">
@@ -71,7 +73,7 @@ const MegaMenu = ({ title, items }) => {
 
             <div className="promo-icon">
              
-              <img src="src/assets/images/hosting/java.png" alt="Cloud Icon" />
+              <img src={navbarimage} alt="Navbar" />
 
             </div>
 

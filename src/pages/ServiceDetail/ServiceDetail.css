@@ -1,0 +1,15 @@
+.service-not-found{
+    padding:90px 0;
+    text-align:center;
+}
+
+.service-not-found h1{
+    font-size:48px;
+    color:#071C63;
+    margin-bottom:20px;
+}
+
+.service-not-found p{
+    color:#666;
+    font-size:18px;
+}
