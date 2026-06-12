@@ -187,7 +187,7 @@ const Header = () => {
 
               {/* Currency */}
 
-              <div className="currency-switcher">
+              {/* <div className="currency-switcher">
 
                 <button
                     className="currency-btn"
@@ -220,7 +220,7 @@ const Header = () => {
                     </div>
                 )}
 
-                </div>
+                </div> */}
 
               {/* Mobile Hamburger */}
 
