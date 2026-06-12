@@ -47,7 +47,7 @@
     align-items:center;
     gap:60px;
 
-    padding:30px 0;
+    padding:20px 0;
 
     position:relative;
     z-index:2;
@@ -85,13 +85,13 @@
 }
 
 .hero-content h1{
-    font-size:56px;
+    font-size:46px !important;
     font-weight:800;
     line-height:1.08;
 
     color:#fff;
 
-    margin-bottom:25px;
+    /* margin-bottom:25px; */
 }
 
 .hero-content h1 span{
@@ -116,15 +116,15 @@
 .hero-buttons{
     display:flex;
     align-items:center;
-    gap:18px;
+    gap:10px;
 
-    margin-bottom:40px;
+    margin-bottom:20px;
 }
 
 .domain-btn{
-    height:58px;
+    /* height:38px; */
 
-    padding:0 30px;
+    padding:10px 20px;
 
     background:#0b5fff;
 
@@ -150,9 +150,9 @@
 }
 
 .demo-btn{
-    height:58px;
+    /* height:58px; */
 
-    padding:0 30px;
+    padding:10px 20px;
 
     background:transparent;
 
@@ -192,7 +192,7 @@
     align-items:center;
     gap:10px;
 
-    padding:12px 18px;
+    padding:10px 18px;
 
     background:
     rgba(255,255,255,.08);
@@ -219,7 +219,7 @@
 }
 
 .hero-image img{
-    width:100%;
+    width:70%;
     max-width:520px;
     height:auto;
 
@@ -297,7 +297,7 @@
 @media (max-width:1400px){
 
     .hero-content h1{
-        font-size:56px;
+        font-size:46px;
     }
 
     .hero-image img{
@@ -320,7 +320,7 @@
     }
 
     .hero-content h1{
-        font-size:50px;
+        font-size:44px;
     }
 
     .hero-image img{
@@ -364,7 +364,7 @@
     }
 
     .hero-content h1{
-        font-size:46px;
+        font-size:42px;
     }
 
     .floating-card{
@@ -379,11 +379,11 @@
 @media (max-width:768px){
 
     .hero{
-        padding:40px 0;
+        padding:10px 0;
     }
 
     .hero-wrapper{
-        padding:60px 0;
+        padding:10px 0;
     }
 
     .hero-content h1{
@@ -445,7 +445,7 @@
 @media (max-width:480px){
 
     .hero-wrapper{
-        padding:50px 0;
+        padding:20px 0;
     }
 
     .hero-content h1{
@@ -505,7 +505,7 @@
     align-items:center;
     gap:10px;
 
-    padding:14px 18px;
+    padding:10px 18px;
 
     background:
     rgba(255,255,255,0.08);
@@ -585,7 +585,7 @@
         justify-content:center;
         gap:8px;
 
-        padding:12px 10px;
+        padding:10px 10px;
 
         font-size:12px;
         text-align:center;
@@ -607,7 +607,7 @@
 
     .feature{
         font-size:13px;
-        padding:12px 14px;
+        padding:10px 14px;
     }
 }
 
