@@ -3,8 +3,8 @@
 ================================= */
 
 .testimonials{
-    padding:90px 0;
-    background:#fff;
+    padding:50px 0;
+    background:#f8faff;
     overflow:hidden;
 }
 
@@ -14,7 +14,7 @@
 
 .section-title{
     text-align:center;
-    margin-bottom:60px;
+    margin-bottom:30px;
 }
 
 .section-badge{
@@ -34,7 +34,7 @@
 }
 
 .section-title h2{
-    font-size:48px;
+    font-size:42px;
     font-weight:800;
     color:#071C63;
 }
@@ -63,7 +63,7 @@
 
 .stat-card{
 
-    padding:30px;
+    padding:15px;
 
     border-radius:20px;
 
@@ -86,7 +86,7 @@
 }
 
 .stat-card h3{
-    font-size:34px;
+    font-size:25px;
     font-weight:800;
     margin-bottom:6px;
 }
@@ -172,10 +172,10 @@
 
     border-radius:24px;
 
-    padding:35px;
-    margin:10px 0px;
+    padding:15px;
+    margin:40px 0px;
 
-    min-height:340px;
+    min-height:300px;
 
     transition:.4s;
 
@@ -195,8 +195,8 @@
 
 .quote-icon{
 
-    width:60px;
-    height:60px;
+    width:40px;
+    height:40px;
 
     display:flex;
     align-items:center;
@@ -213,9 +213,9 @@
 
     color:#fff;
 
-    font-size:20px;
+    font-size:16px;
 
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 
 .stars{
@@ -224,7 +224,7 @@
 
     color:#FFB800;
 
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 
 .review{
@@ -250,15 +250,15 @@
     align-items:center;
     gap:15px;
 
-    padding-top:20px;
+    padding-top:10px;
 
     border-top:1px solid #edf2ff;
 }
 
 .client-info img{
 
-    width:80px;
-    height:80px;
+    width: 50px;
+    height:50px;
 
     border-radius:50%;
 
@@ -271,7 +271,7 @@
 
     color:#071C63;
 
-    font-size:18px;
+    font-size:16px;
 
     margin-bottom:5px;
 }
@@ -289,7 +289,7 @@
 
     display:inline-block;
 
-    margin-top:8px;
+    margin-top:3px;
 
     padding:5px 12px;
 

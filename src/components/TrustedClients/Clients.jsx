@@ -70,9 +70,9 @@ const Clients = () => {
           
 
         <div className="partners-title">
-          <span className="section-badge">
+          {/* <span className="section-badge">
             Trusted Partners
-          </span>
+          </span> */}
           <h2>
             Trusted by 200,000+ Businesses Across India
           </h2>

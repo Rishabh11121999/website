@@ -14,9 +14,9 @@ const BlogSection = () => {
       <div className="container">
 
         <div className="section-heading">
-          <span className="section-badge">
+          {/* <span className="section-badge">
             Blogs
-          </span>
+          </span> */}
 
           <h2>Our Blog</h2>
           <div class="title-line"></div>

@@ -20,9 +20,9 @@ const CTABanner = () => {
 
           <div className="cta-content">
 
-            <span className="cta-badge">
+            {/* <span className="cta-badge">
               Enterprise Hosting Solutions
-            </span>
+            </span> */}
 
             <h2>
               Ready To Scale Your
@@ -61,9 +61,9 @@ const CTABanner = () => {
 
           <div className="cta-contact-card">
 
-            <span className="help-badge">
+            {/* <span className="help-badge">
               Need Help?
-            </span>
+            </span> */}
 
             <h3>
               Talk To Our Hosting Experts

@@ -3,7 +3,7 @@
 ================================== */
 
 .cta-banner{
-    padding:90px 0;
+    padding:50px 0;
     position:relative;
     overflow:hidden;
 }
@@ -94,7 +94,7 @@
 .cta-content h2{
     color:#fff;
 
-    font-size:56px;
+    font-size:42px;
     font-weight:800;
 
     line-height:1.1;
@@ -121,7 +121,7 @@
 
 .cta-buttons{
     display:flex;
-    gap:15px;
+    gap:10px;
     flex-wrap:wrap;
 }
 
@@ -131,7 +131,7 @@
     justify-content:center;
     gap:10px;
 
-    padding:16px 28px;
+    padding: 10px 20px;
 
     background:#fff;
     color:#071C63;
@@ -153,7 +153,7 @@
     justify-content:center;
     gap:10px;
 
-    padding:16px 28px;
+    padding:10px 20px;
 
     border-radius:12px;
 
@@ -214,10 +214,10 @@
 .cta-contact-card h3{
     color:#fff;
 
-    font-size:28px;
+    font-size:22px;
     font-weight:700;
 
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 
 .cta-contact-card a{
@@ -228,7 +228,7 @@
 
     color:#fff;
 
-    font-size:28px;
+    font-size:20px;
     font-weight:800;
 
     margin-bottom:15px;
@@ -315,11 +315,11 @@
     }
 
     .cta-contact-card h3{
-        font-size:22px;
+        font-size:20px;
     }
 
     .cta-contact-card a{
-        font-size:22px;
+        font-size:18px;
         flex-wrap:wrap;
     }
 }

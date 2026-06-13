@@ -3,7 +3,7 @@
 ========================= */
 
 .why-dnh{
-    padding:90px 0;
+    padding:50px 0;
     background:#fff;
     overflow:hidden;
 }
@@ -77,9 +77,9 @@
 
 .why-card{
     display:flex;
-    gap:16px;
+    gap:10px;
 
-    padding:20px;
+    padding:10px;
 
     background:#fff;
 
@@ -136,11 +136,11 @@
 
 .why-section-title{
     text-align:center;
-    margin-bottom:60px;
+    margin-bottom:30px;
 }
 
 .why-section-title h2{
-    font-size:48px;
+    font-size:42px;
     font-weight:800;
     color:#071C63;
     line-height:1.2;

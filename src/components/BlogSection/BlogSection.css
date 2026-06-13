@@ -3,17 +3,17 @@
 ========================= */
 
 .blog-section{
-    padding:90px 0;
-    background:#f8faff;
+    padding:50px 0;
+    background:#fff;
 }
 
 .section-heading{
     text-align:center;
-    margin-bottom:60px;
+    margin-bottom:30px;
 }
 
 .section-heading h2{
-    font-size:48px;
+    font-size:42px;
     font-weight:800;
     color:#071C63;
 }
@@ -122,14 +122,14 @@
 .blog-content h3{
     color:#071C63;
 
-    font-size:22px;
+    font-size:20px;
     font-weight:700;
 
     line-height:1.4;
 
-    margin-bottom:20px;
+    margin-bottom:6px;
 
-    min-height:95px;
+    min-height:100px;
 }
 
 .blog-readmore{
@@ -152,7 +152,7 @@
 ========================= */
 
 .blog-footer{
-    margin-top:50px;
+    margin-top:30px;
     text-align:center;
 }
 

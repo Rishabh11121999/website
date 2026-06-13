@@ -15,9 +15,9 @@ const HostingSolutions = () => {
 
         <div className="section-header">
 
-          <span className="section-badge">
+          {/* <span className="section-badge">
             Hosting Solutions
-          </span>
+          </span> */}
 
           <h2>
             Explore Our Hosting Solutions

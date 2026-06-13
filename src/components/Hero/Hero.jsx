@@ -74,7 +74,7 @@ const Hero = () => {
                   </p>
 
                   <div className="hero-buttons">
-
+                    <h2>
                     <a
                       href="/domain-registration"
                       className="domain-btn"
@@ -82,7 +82,8 @@ const Hero = () => {
                       <FaSearch />
                       {slide.primaryBtn}
                     </a>
-
+                    </h2>
+                    <h2>
                     <a
                       href="/contact-us"
                       className="demo-btn"
@@ -90,7 +91,7 @@ const Hero = () => {
                       <FaCalendarAlt />
                       {slide.secondaryBtn}
                     </a>
-
+                    </h2>
                   </div>
 
                   <div className="hero-features">

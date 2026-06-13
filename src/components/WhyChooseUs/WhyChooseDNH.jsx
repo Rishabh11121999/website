@@ -13,9 +13,9 @@ const WhyChooseDNH = () => {
         {/* SECTION HEADING */}
 
         <div className="why-section-title">
-          <span className="section-badge">
+          {/* <span className="section-badge">
             Why Choose Us
-          </span>
+          </span> */}
           <h2>Why Businesses Choose Datanet</h2>
           <div className="title-line"></div>
         </div>
@@ -55,7 +55,7 @@ const WhyChooseDNH = () => {
                     </div>
 
                     <div>
-                      <h4>{item.title}</h4>
+                      <h3>{item.title}</h3>
                       <p>{item.description}</p>
                     </div>
 

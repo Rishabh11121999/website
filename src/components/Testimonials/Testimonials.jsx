@@ -24,9 +24,9 @@ const Testimonials = () => {
 
         <div className="section-title">
 
-          <span className="section-badge">
+          {/* <span className="section-badge">
             Testimonials
-          </span>
+          </span> */}
 
           <h2>
             What Our Clients Say
